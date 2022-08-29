@@ -16,7 +16,9 @@ function Select({ handleChange, cities, error }) {
                     );
                 })}
             </select>
-            {error && <p className="text-red-600">{error.msg}</p>}
+            {error && (
+                <p className=" px-2.5 text-red-600 self-start">{error.msg}</p>
+            )}
         </>
     );
 }
