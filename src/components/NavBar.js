@@ -14,7 +14,7 @@ const NavBar = () => {
                         >
                             Users
                         </Link>
-                        {/* <button
+                        <button
                             className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
                             type="button"
                             onClick={() => setNavbarOpen(!navbarOpen)}
@@ -33,14 +33,13 @@ const NavBar = () => {
                                     d="M4 6h16M4 12h16M4 18h16"
                                 />
                             </svg>
-                        </button> */}
+                        </button>
                     </div>
                     <div
                         className={
-                            "lg:flex flex-grow items-center" +
+                            "lg:flex flex-grow items-center bg-slate-500 rounded-b-xl duration-300" +
                             (navbarOpen ? " flex" : " hidden")
                         }
-                        id="example-navbar-danger"
                     >
                         <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                             <li className="nav-item">
