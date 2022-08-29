@@ -63,7 +63,7 @@ const NewUser = () => {
         <Main>
             <form
                 onSubmit={handleSubmit}
-                className="flex flex-col items-center rounded-lg shadow-xl shadow-black bg-slate-400 max-w-sm"
+                className="flex flex-col items-center rounded-lg shadow-xl shadow-black bg-slate-400 max-w-sm min-w-[360px]"
             >
                 <Input
                     name="Name"
